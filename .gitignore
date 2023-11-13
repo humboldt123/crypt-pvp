@@ -1,0 +1,17 @@
+logs/
+versions/
+Spigot/
+plugins/
+world/
+world_nether/
+world_the_end/
+world_backup/
+ops.json
+banned-ips.json
+banned-players.json
+whitelist.json
+usercache.json
+.console_history
+version_history.json
+backup.zip
+eula.txt
