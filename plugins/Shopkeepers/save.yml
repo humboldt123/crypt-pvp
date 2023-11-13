@@ -1,0 +1,913 @@
+# This file is not intended to be manually modified! If you want to manually edit this file anyways, ensure that the server is not running currently and that you have prepared a backup of this file.
+data-version: 2|2586
+'2':
+  uniqueId: 61a0d0f0-e459-4ac9-8025-1c55e28ace8f
+  name: Items
+  world: world
+  x: -133
+  y: 143
+  z: -366
+  type: admin
+  object:
+    type: villager
+    baby: false
+    profession: LIBRARIAN
+    villagerType: PLAINS
+    villagerLevel: 5
+  recipes:
+    '1':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2586
+        type: EMERALD
+        amount: 17
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2586
+        type: SHIELD
+    '2':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2586
+        type: EMERALD
+        amount: 10
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2586
+        type: STONE_PICKAXE
+    '3':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2586
+        type: EMERALD
+        amount: 5
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2586
+        type: STONE_SHOVEL
+    '4':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2586
+        type: EMERALD
+        amount: 10
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2586
+        type: SPLASH_POTION
+        amount: 20
+        meta:
+          ==: ItemMeta
+          meta-type: POTION
+          display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"text":"Splash
+            Potion of Vanishing"}],"text":""}'
+          enchants:
+            VANISHING_CURSE: 1
+          ItemFlags:
+          - HIDE_ENCHANTS
+          custom-color:
+            ==: Color
+            RED: 224
+            BLUE: 255
+            GREEN: 249
+          custom-effects:
+          - ==: PotionEffect
+            effect: 14
+            duration: 200
+            amplifier: 0
+            ambient: true
+            has-particles: true
+            has-icon: true
+    '5':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2586
+        type: EMERALD
+        amount: 10
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2586
+        type: LINGERING_POTION
+        meta:
+          ==: ItemMeta
+          meta-type: POTION
+          display-name: '{"italic":false,"color":"white","text":"Rising Decay Lingering
+            Potion"}'
+          custom-color:
+            ==: Color
+            RED: 77
+            BLUE: 189
+            GREEN: 55
+          custom-effects:
+          - ==: PotionEffect
+            effect: 14
+            duration: 1600
+            amplifier: 0
+            ambient: false
+            has-particles: true
+            has-icon: true
+          - ==: PotionEffect
+            effect: 15
+            duration: 100
+            amplifier: 1
+            ambient: false
+            has-particles: true
+            has-icon: true
+          - ==: PotionEffect
+            effect: 20
+            duration: 20
+            amplifier: 2
+            ambient: false
+            has-particles: true
+            has-icon: true
+          - ==: PotionEffect
+            effect: 25
+            duration: 200
+            amplifier: 5
+            ambient: false
+            has-particles: true
+            has-icon: true
+    '6':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2586
+        type: EMERALD
+        amount: 10
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2586
+        type: SPLASH_POTION
+        meta:
+          ==: ItemMeta
+          meta-type: POTION
+          potion-type: minecraft:fire_resistance
+    '7':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2586
+        type: EMERALD
+        amount: 5
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2586
+        type: POTION
+        meta:
+          ==: ItemMeta
+          meta-type: POTION
+          potion-type: minecraft:long_slow_falling
+    '8':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2586
+        type: EMERALD
+        amount: 8
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2586
+        type: POTION
+        meta:
+          ==: ItemMeta
+          meta-type: POTION
+          potion-type: minecraft:water_breathing
+    '9':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2586
+        type: EMERALD
+        amount: 14
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2586
+        type: ENDER_PEARL
+    '10':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2586
+        type: EMERALD
+        amount: 10
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2586
+        type: MAGMA_BLOCK
+        amount: 64
+    '11':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2586
+        type: EMERALD
+        amount: 5
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2586
+        type: DIRT
+        amount: 16
+    '12':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2586
+        type: EMERALD
+        amount: 5
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2586
+        type: RED_SHULKER_BOX
+        meta:
+          ==: ItemMeta
+          meta-type: TILE_ENTITY
+          display-name: '{"text":"TNT MINECARTS"}'
+          internal: H4sIAAAAAAAAAJXLywqCYBiE4dG09K/sqJ3upGXRonXtxcxKPPygn1B3X1TQtlkNA8+rAAVvk+s425WSyuMYXR2Y6Rl+kZZJXEUXWde3Js+SKjzpuwt7L0lRKwArA9Yh14JPEPwCKSV8v6gSA/ZWN+Vrv9zguMnxFsctjtscb3O8w3GH4y7HFce7HO9xvM9xj+MDjg85PuL4mOMTjk857nM84PiM43OOLzi+/JMDT9u0HJc0BQAA
+          blockMaterial: RED_SHULKER_BOX
+    '13':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2586
+        type: EMERALD
+        amount: 5
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2586
+        type: RAIL
+        amount: 5
+    '14':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2586
+        type: EMERALD
+        amount: 3
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2586
+        type: WOLF_SPAWN_EGG
+    '15':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2586
+        type: EMERALD
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2586
+        type: BONE
+        amount: 4
+    '16':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2586
+        type: EMERALD
+        amount: 12
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2586
+        type: DIAMOND_HOE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"italic":false,"color":"white","text":"Diamond Scythe"}'
+          enchants:
+            FIRE_ASPECT: 2
+            KNOCKBACK: 4
+            DAMAGE_ALL: 1
+          attribute-modifiers:
+            GENERIC_ATTACK_SPEED:
+            - ==: org.bukkit.attribute.AttributeModifier
+              amount: 2.0
+              name: generic.attackSpeed
+              slot: HAND
+              uuid: 00000000-000c-fd13-0000-00000000edc0
+              operation: 2
+          repair-cost: 1
+          ItemFlags:
+          - HIDE_ENCHANTS
+    '17':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2586
+        type: EMERALD
+        amount: 32
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2586
+        type: IRON_SHOVEL
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"italic":false,"color":"white","text":"Iron Lance"}'
+          attribute-modifiers:
+            GENERIC_ATTACK_DAMAGE:
+            - ==: org.bukkit.attribute.AttributeModifier
+              amount: 5.0
+              name: generic.attackDamage
+              slot: HAND
+              uuid: 00000000-0009-482c-0000-0000000c681d
+              operation: 2
+            GENERIC_ATTACK_SPEED:
+            - ==: org.bukkit.attribute.AttributeModifier
+              amount: 1.5
+              name: generic.attackSpeed
+              slot: HAND
+              uuid: 00000000-000c-fd13-0000-00000000edc0
+              operation: 2
+            - ==: org.bukkit.attribute.AttributeModifier
+              amount: 0.1
+              name: GENERIC_ATTACK_SPEED
+              uuid: cc6e56fa-3134-4ee0-9bf6-1f1182a35217
+              operation: 0
+            - ==: org.bukkit.attribute.AttributeModifier
+              amount: 100.0
+              name: GENERIC_ATTACK_SPEED
+              uuid: 7a721e0f-5c4e-4263-9eca-9a5d24e423e0
+              operation: 0
+            - ==: org.bukkit.attribute.AttributeModifier
+              amount: 0.01
+              name: GENERIC_ATTACK_SPEED
+              uuid: 5cb85a61-cb58-4254-9b73-3ad420d89b85
+              operation: 0
+    '18':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2586
+        type: EMERALD
+        amount: 9
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2586
+        type: END_CRYSTAL
+        amount: 64
+    '19':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2586
+        type: EMERALD
+        amount: 9
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2586
+        type: EXPERIENCE_BOTTLE
+        amount: 64
+    '20':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2586
+        type: EMERALD
+        amount: 2
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2586
+        type: ANVIL
+    '21':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2586
+        type: EMERALD
+        amount: 63
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2586
+        type: MUSIC_DISC_STAL
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"italic":false,"color":"red","text":"ｓｔａｌ"}'
+          attribute-modifiers:
+            GENERIC_MAX_HEALTH:
+            - ==: org.bukkit.attribute.AttributeModifier
+              amount: 3.0
+              name: generic.maxHealth
+              uuid: 00000000-000d-abbf-0000-0000000d5e54
+              operation: 0
+          ItemFlags:
+          - HIDE_ATTRIBUTES
+    '22':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2586
+        type: EMERALD
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2586
+        type: JUKEBOX
+    '23':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2586
+        type: EMERALD
+        amount: 21
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2586
+        type: CROSSBOW
+    '24':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2586
+        type: EMERALD
+        amount: 3
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2586
+        type: FIREWORK_ROCKET
+        amount: 5
+        meta:
+          ==: ItemMeta
+          meta-type: FIREWORK
+          display-name: '{"bold":false,"italic":false,"color":"aqua","text":"Remote
+            Explosive"}'
+          firework-effects:
+          - ==: Firework
+            flicker: true
+            trail: true
+            colors:
+            - ==: Color
+              RED: 255
+              BLUE: 0
+              GREEN: 0
+            - ==: Color
+              RED: 255
+              BLUE: 0
+              GREEN: 165
+            - ==: Color
+              RED: 255
+              BLUE: 0
+              GREEN: 255
+            - ==: Color
+              RED: 0
+              BLUE: 0
+              GREEN: 128
+            - ==: Color
+              RED: 0
+              BLUE: 255
+              GREEN: 0
+            - ==: Color
+              RED: 75
+              BLUE: 130
+              GREEN: 0
+            fade-colors:
+            - ==: Color
+              RED: 168
+              BLUE: 0
+              GREEN: 0
+            - ==: Color
+              RED: 115
+              BLUE: 0
+              GREEN: 74
+            - ==: Color
+              RED: 105
+              BLUE: 0
+              GREEN: 105
+            - ==: Color
+              RED: 0
+              BLUE: 0
+              GREEN: 87
+            - ==: Color
+              RED: 0
+              BLUE: 117
+              GREEN: 0
+            - ==: Color
+              RED: 57
+              BLUE: 99
+              GREEN: 0
+            type: CREEPER
+          - ==: Firework
+            flicker: true
+            trail: true
+            colors:
+            - ==: Color
+              RED: 0
+              BLUE: 0
+              GREEN: 0
+            fade-colors:
+            - ==: Color
+              RED: 255
+              BLUE: 0
+              GREEN: 0
+            type: BURST
+          - ==: Firework
+            flicker: true
+            trail: true
+            colors:
+            - ==: Color
+              RED: 75
+              BLUE: 105
+              GREEN: 7
+            fade-colors:
+            - ==: Color
+              RED: 238
+              BLUE: 255
+              GREEN: 168
+            type: BALL_LARGE
+    '25':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2586
+        type: EMERALD
+        amount: 7
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2586
+        type: SPONGE
+        amount: 16
+    '26':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2586
+        type: EMERALD
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2586
+        type: TNT
+    '27':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2586
+        type: EMERALD
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2586
+        type: PUFFERFISH_BUCKET
+    '28':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2586
+        type: EMERALD
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2586
+        type: WATER_BUCKET
+    '29':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2586
+        type: EMERALD
+        amount: 18
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2586
+        type: ELYTRA
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"text":"Glider"}],"text":""}'
+          repair-cost: 32767
+          Damage: 425
+    '30':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2586
+        type: EMERALD
+        amount: 8
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2586
+        type: FISHING_ROD
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"text":"Knockback
+            Rod"}],"text":""}'
+          enchants:
+            KNOCKBACK: 7
+          Damage: 48
+    '31':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2586
+        type: EMERALD
+        amount: 12
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2586
+        type: PIGLIN_SPAWN_EGG
+        amount: 4
+        meta:
+          ==: ItemMeta
+          meta-type: SPAWN_EGG
+          internal: H4sIAAAAAAAAAONiYOBi4HTNK8ksqQxJTOdg4HIuLS7Jz/VLzE1lUKtWKkmtKFGyUnIrSk1VCMnIzMtOLVLSUcosSczJTFaySkvMKU6tZWQQ9yz2zM0tzUsNyY/Kz03KTMtMTizJzM9jZGAAALlY1EthAAAA
+    '32':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2586
+        type: EMERALD
+        amount: 3
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2586
+        type: GOLD_INGOT
+        amount: 21
+    '33':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2586
+        type: EMERALD
+        amount: 3
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2586
+        type: BLUE_STAINED_GLASS
+        amount: 16
+'3':
+  uniqueId: b466ee39-f45d-4084-8d8f-7066965b8fd9
+  name: Kits
+  world: world
+  x: -133
+  y: 143
+  z: -369
+  type: admin
+  object:
+    type: villager
+    baby: false
+    profession: ARMORER
+    villagerType: SNOW
+    villagerLevel: 3
+  recipes:
+    '1':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2586
+        type: RED_SHULKER_BOX
+        meta:
+          ==: ItemMeta
+          meta-type: TILE_ENTITY
+          display-name: '{"italic":false,"color":"red","text":"Scythe Kit"}'
+          internal: H4sIAAAAAAAAAO1Wy27bRhS9FGVbku2msewkfSAxuOgqyCJOgcKLOq7swgb6MOK6m6IghuSInGjIUWaGkQ3Dy/5X/yH7Av2ALvIBhXv5ECmRtiQDXpYbiaPRmXvuPeeQHYAOfPIdF+7gMNJMX/xC/BY0mAdbIYuoK0lf76og5gMqbUect2HpWNNQdQDggQHNUy40GLDUE3GkjQ6YmvgdWPGYGnJy0YLmTySk8OrSYppw5lq7fcIVfW65ggtp7VqSetZzS9NzjTc9yUIlou0jITzryoSldBdc7+xAG9YOIzcgkQ5ppNPjjazOz8o6+0xSeyiFpq5mImqAyd9zaGJ9q2eRIykZEIdTw4TlAxISnyIImNA+Yh79nhNf4e0KZKhPSlROiQ6QfUB5SBOyKWnjvkm/EQ5dmPSzsjzk+zbhy++L+pd16m5AlUZumo7pNyr0p4BzoMcTCtIiwvqYOyDnBYZZwbid7qMS6V2MIFgQkT7NWZoIuNJLV7xphm3YyNdPii7dgqvZcEg9m0gpRnNH+8elhcOTxNr97dJyBPeKEVcmHkcelRwPKXcoLdmA6kCK2A+KVeH0Y+Vig8uNuT5OBEvksZ8UZl39XqxbV0iv24uxteGJSIZ+2O8jxYyfAeungRidEKmZi6RxoXHsNUxoHcSSJLtx16YBrWTXsSsi3NDeD4ec9RmVSUP3Q4fhGIyqTPZMeDh5ai+Va//bv1uwnK3Aw7Kt2H288QtNbJQ/uVIo5YjRWA7NSttLvC8mFCki31ZcjGzsEk+QM9xPJwyR/SlHbc8d5jd38+kP1PfxXLWwVzenvHoPBv28blCeFzVm3blv1qc88YdcnPVEkQ4nSt9TOD2uc3eE0AXx1QVyqVvNpYlMWhv///X/3k+9f7PXq5kw0/szs3bc+PVb3f+04v70KS+pYkqTyKU3PGxwXCqwp3Ngo/aw2djXOA4n1vRH4aXUx/rNBr3l04hK5r4IxXuayPt0SKmHzH9GI4zb2FiF5tnZ8QF+bV4n18cnH1KpPfvrqAXrxREp4nZZYxXbVgn4Mizvh0mRex920muxWIkzE2Gvc2u9hLpuXyxm+APi+1SiwGa5cQ9qNTApIluNhPTGHe/OzaCXt5ZE3sWkrAnlGHuIT9Oypiox65moMWdCW/RtNOBFor+8ns1aNHTe0CFhsieUTvp6l5AcBUzTia4xEorI2z51LzCTUnvW5mbW3qtTJROcvKvzwTXqETWI8N3cIe6giM16iqHThhFVKt9iwEx1p+/srZCwCOvzxly7Y0kSrfG0eWJPRb72bzf9hH/+rIn9aV3sGXJF6q8hv2YJzoBa87ys5XYgivDeKsI72/1g4hmEBimU+WhuyH+9oDKTgMbebP/KCL956gu59c5h3p0Oc++2MDfKMIebw/yrj9fVXpfRO9FAGg71xbysBfgP9LwjkFAOAAA=
+          blockMaterial: RED_SHULKER_BOX
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2586
+        type: GOLDEN_HELMET
+    '2':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2586
+        type: YELLOW_SHULKER_BOX
+        meta:
+          ==: ItemMeta
+          meta-type: TILE_ENTITY
+          display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"Alchemical
+            Kit"}],"text":""}'
+          internal: H4sIAAAAAAAAAO2W0Y7SQBSGz1BYoOKuCquuMYb0em/NRi7MIhBDooYs3pOhDO1kpzPNzCAQ4zvsC3Hv4/gITqkFuhThQjeaLFeUzPnOP/P/Z6gNYMPxOybc6w7XVM8/Y68EOTqC04By4ko81g3lT9g1kYOhmJWh0NUkUDYAVBDk+0xoQFBoiQnXyAZLY88C+4qEmMqWUNqsQ2WodLjrY64DwvWyFsVNausmoRSauJoKngOLfWGGasFRGwfYIxB94ooX6wpDpDzAlA18wgIS6VjqQX9HTy5Tz6ssPa5PlA4Z1iTRlEs0FWNNZai2JkqLoCeiFp3x2PRaKskjeNj3xbSHpaYuI8psJ9cdHVtQak8kjlYDHF0iKEWruq7gZkG5GYSMjimRpmGxGQyp2ZjZVSbqJIWC0S4U2o+qpVG1XajcftRZGvV9F6qwibKhOKLKnPS8BPlPOCDw/qtDNWbUdRpjzBQ5d1zBhHQaztSnmjjnjiYzbR6vqKLcq7eJi+f1D+YrkdFz7IfzzZj9eNOhVkSBjxeLEhzFv8DJ2noShHq+nVCWYAdhXPIrDdathO5Og5V9WPafs/BpCoVuDjr3bNTzA1Ho9xa+OdTC+LTqYmz883y9y7TFzcVe0x5tDH7KqvJdXiYvsy4TRjzPREgliuy7vG7PshQNhdArOQ8SOZf7soyyU1NNZ/nHAalBGalpHpqavqlSfn0dnp6gavfIv1683ZueZxv/lUv6rXmv3M/7/zLvT7ama3soNsaISsEHairkKAFUV/OwlQ1PsBHhAxdLKVZvK7UDGlY38qUFJwM8W71ZnN5n65/PFsBP4C5jpWgLAAA=
+          blockMaterial: YELLOW_SHULKER_BOX
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2586
+        type: GOLDEN_HELMET
+    '3':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2586
+        type: LIME_SHULKER_BOX
+        meta:
+          ==: ItemMeta
+          meta-type: TILE_ENTITY
+          display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"Vanilla
+            PvP Kit"}],"text":""}'
+          internal: H4sIAAAAAAAAAJ3Sy07DMBAF0ElDEQ0VQoVSQHwJK8RjwRr21iSZOlYcD3KmtPw9DVUeajYW3sb3zB0rCUACF8+Ws/LNiZGfT9RnMDE5LCvjKPO4lse62NiSvEp5N4Ppu1BVJwAwj+Dkw7JABNMX3jiJEogFdQynr1ihJmjOQbvttdxgxS5XBdmKmvAfEgUgD2MkK6iWL4tCLTRpoadDaNWHNNucnMrQe+4Gx93g0d4Wv1Glm6zsa84Cat6Pa1rS2jhdt0wSwKzGTMosnXEeYAyWWZu62FdQnvNWmB+tftPf3u5f1B/tvvhf6XrLvht5FWBcDv88Q7YLXweE7wYbW+NEYVNBiGyrLAOURa8Yz07hrvn6C7ekYp8tAwAA
+          blockMaterial: LIME_SHULKER_BOX
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2586
+        type: GOLDEN_HELMET
+    '4':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2586
+        type: GREEN_SHULKER_BOX
+        meta:
+          ==: ItemMeta
+          meta-type: TILE_ENTITY
+          display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_green","text":"Rushdown
+            Kit"}],"text":""}'
+          internal: H4sIAAAAAAAAAM1Vy27TQBS9zqNNHIqgDxCPRZUFK8QCJBbZQF/QSjyklq6ta/vGHmU8Y2YmkKhiyUfAf7BGLPkEdv0MloydOC+3BDYIb8Zj3Tlz7rn3XLsALlzd5TLoHQjDzPANRg2osBC2EiYoUNg1HR33eY+U58tBE+pHhhLtAkDDgdoJlwYcqO/JvjCOC1WDkQurIdMpx2EDaq8wIXh41jY0MO1O+7iv4+1D4kn7fjuQXCr7LZI8tFtmkLOg3eki1/QBmrC+Y4xift/QSxmyLiOVX+sUqJsRCVIseIDGYNDbxwQjqkLzdUoKDZPCBkMLaqenR/v2rZZtYa2D+dqqpg1Ym9yQA27NA3rhGHFlJ8nSs6cqltaVAxHEKExCwhSEMsGuTQUzsVRCV6DK33GrjgOtU+Erwh76nBwLOOKa8bB8D1lIzzhG2m5XYQR2cwqWyUPCi61olGmda+4saF4F95hSZGpP6oxo9QKelRH05hQ6VdJQkEk14VqK6Y+YMxGNY6owl8D4xJ0S4SAmbWwXGCpIVwrSTy9LMkCl5CTJ5v+W5K0SYU5RZE/pgrK71AuPzuY7veSDWafsSml0+0/McL3o3QQHh4TcxAtOqCw6ofmxnq/ut58lJ9ydSXSKa3swA14pDPH1x6fs+fyvTHGjJL+f6VNo3yq1y28r2OVMGA9F6GlDxAuU9aUVfHxpBfFtH6cVfJ5z3H6BvhouLWI+SBsJMmFlDIurNuYn0klKFC6bcM73L/l69fxeqa4LI9PTGeCknk/OYfRcUM9a6a/QZYo8tAiBWTDWxjSoJ+yfxbdXXR6iY1SpIK0n1huFrM+EvCdKZ835F81TL7t93Dw4mEymjUnRR8G3Z9rWTo/Ek12vL8Kh5WAhfwFRN3xcNQcAAA==
+          blockMaterial: GREEN_SHULKER_BOX
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2586
+        type: GOLDEN_HELMET
+    '5':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2586
+        type: BLUE_SHULKER_BOX
+        meta:
+          ==: ItemMeta
+          meta-type: TILE_ENTITY
+          display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"blue","text":"Waterbender
+            Kit"}],"text":""}'
+          internal: H4sIAAAAAAAAALVVwW7TQBAdxymNA4WWllZCgCKfe+DcEyWtUFGFqhaJY7S2x/Yqa6/ZnaWNqkrc4CMqPo4fgU0cxyYGVFWtfdr1mzezb96s+wB9ePxWyHB8mBOnyUeW9KDDI3iW8RxDxWLa06kRY1SjQF54sHJEmOk+AHgOdM+EJMvgEktc6J9iwbgaSk32s+vBo8M8TFlOGeY0C+mU3Fs1d6EkYUhc5h1wxRcBDrTyK9QFV6wBcu374IBlLEGYPg6sDKXJySljd+pYMooEjlIUGRLMK3aqihscfViNuC4Em7iwEkohFWxfX7eoX9TUAhmlVpYwRU02kLDi7/yXvwfdDyxDeH3pE16Qv+cfywkTNPF3/Vliu8M+G2aXnJjgob8XM6HxCv6t6EajrJJsSc6G5CYPFLIxz5OFmsunbNCR4pFNVh3Nu710z9vSCUwSW4eu2Pu3Z99pswdS0oL64U178ofmrY7MO3bKC7K6+DfsiSrh99STp+XRPNgcGk0yO5HTUTmMYztYs4K6DqydpfL8hCnioUDtONA5itZc6B2YcrDAXdu1dU1RR6HMLcDbzwrBY47KLlb3s4BPU8Lfqdbvjurl3VG9ug1V2xTm0g+kiBaWWHKIySNUwjanRmjboTFSqqRJ0sWuDGKjQ3tP1MC5ncqODWQ8sMYdnCHT/pUH3WOpsDe73r7dXwmVwQVPUhoVRhUCa6N/slg1eCejwc/vP6zdXdhommw4m8ev73/14EG5A09qn2JW0GTZx+uNy7+MmNt4swK+aU10Ys+O+Shkyv4uKvxWhXdL/HaNP59WPQpMaBWw+v0Gl3dLC+YGAAA=
+          blockMaterial: BLUE_SHULKER_BOX
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2586
+        type: GOLDEN_HELMET
+    '6':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2586
+        type: PURPLE_SHULKER_BOX
+        meta:
+          ==: ItemMeta
+          meta-type: TILE_ENTITY
+          display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"light_purple","text":"Necromancer
+            Kit"}],"text":""}'
+          internal: H4sIAAAAAAAAAO1WTU8jRxCtsTF4zH4RiFZZRYrlSDmhCEOWaEnIrtfGMARjjMFe+2K1Z9qexj3d3pkewIv4J7lEuUc55JhDpP0NuecH5JJjTptuf2OvDYoSCUUcRp72VHdVvfeqqiMAEXjwknKzscUEEa0jVA9DgFjwoUMYNl1UExue7dMGditVfq5DyBDY8SIAoGswk6dcgAahJPeZ0CIQFKgegTmLeE2KWmGY2UcOhucXMSIQJWZso4aoh5djJqfcjW3E0GsfxZZjAp8LuTpmFkZW9FtG6raIpohX94mHY5cyxki+4VOaPWPYlYsDlzexKwj2dAirzb6L2zFpYQgVEPUx/IxbuyvlV/aK9WqXmi1jXa6P8is0a5w0vzRYoVVNGuuGI7/vJNb3Ws+GbJ8KVHxKS2u7dpnl/KpTWNlbO6R45zBuOsenpWLBzqQyK5mUuVpa3TrPpBrxbPGQZou5+H4qfZJNba2VVnOt7HauVTqySWY7bZdTViO7vfVFqVg+yTiGtDPiGbm7fPLSKRdzbwwWf1bLbW4CzEPAsGQiMws//flLMJn9/rtPbad6fJkGGONFQSxpsSVm0OVCG+FCh3tbzLQREw5mogeROmdpcI7Pqi5GDcLqAQjSUwpBGOfwszEOr5KWP+OuJakKwmwKOaiOpSu50HeIhdMU1T25fA5jvonLWcVTe3spBHopvJgkp6/+kZzy3KdtKel9pesQSbgOd/uSnumh/PEgQoqRsCXMpo09IcMQeFJcTy56nveIaUeT/Q2xyyCE2jFCMV2DQcFM5bTn5k76Q4BpMJsnVGpZKn1uDyPPxko5c9uUn0kBy9fIHq6JHSS5tzRd6k++9fkNTNHfJFYfX0xQ+uTaWhyc32CytVaR2eiWVmA4GSX5fZ4w5O89g536VFKMqhTLo+8nTEFO8Vaths3u2Rrcz9v87ABJ9k2KPVld4ZTvIkE4A/3dH5rC74EGesJpUlIj2O2p+ckgnjfcqapvVqVJ6pQwDRaSvie4o3ItEI9I98pTErEDYjaOm3tcdngdHrULJSXFl5QZm9gLKaY2f1y6UM/bH357qx4dHiq8R8wC6pMyC0Nk4Ay+GQW2U6ixQTlTta40fbdJsfz7StFfhmB2ByMq7Be/KiAXD7DrEU9g6fUQv/aJi5WYOgB8NACgbiNPVLwmOmMVXK/3uo5+7RBLTOw6I2F2k9qXDrmjQHCjh7w63ATSn6P3qSfYCfbxINgqYZZUdcX0XQ93FdRrGp8MNQ2Xn0iZyLqoyFehXjnr9/Ixzb/HRoP5484UUPrTbtLEp7bIHqyRfjMfy63OqYVZxUSu275DtO3nr6Xh6xs2/wOuEozyWrSAGPFsCePUmh2SyGlvwwjuOix25Ns5e1ptap1iHKpQLb4sKzSsrAxTLq/UqWxgCVmXMiQF98Kwl2RbMb//9W6EBhn2bMcCHg5Cx05TtLoEPRpivGPYBfmDWz9hr1XBjUft1Ak75uZu1MJ/OGGvZfVfH7V3E/b2TNjFW9917u71d/f6u3v9/6vrLI0MnSs3WxijVSbBcAWdq89/A5Rrj4McEwAA
+          blockMaterial: PURPLE_SHULKER_BOX
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2586
+        type: GOLDEN_HELMET
+    '7':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2586
+        type: PINK_SHULKER_BOX
+        meta:
+          ==: ItemMeta
+          meta-type: TILE_ENTITY
+          display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"light_purple","text":"Tank
+            Kit"}],"text":""}'
+          internal: H4sIAAAAAAAAAL1Vy24TMRS9ebTNo6CSthQhhKpZV6gIIaFuoC9IJR6L0nXkjG9mrHjsYDt9CFgi8QWVQOyQWMAfsOEXumODBFu+AjwzcTJkoKSbOotklHOPz/E9vlMDqMHFDS797rYwzBw9JUEFiozCYsQE+op0zJoO+7yLqtWWh1WY2jEY6RoAVApQ3uXSWIaSIUEVZreFHxJhIhQmQRRTqoURVU9Jg75hUhShxPc5FCDFzI0wJpRK6OH/NZihTPc4OapA+TGJEG4+95ghnPneWodwjSuewUPjrXlNoigKpMtbjERS0OUm8giN9xJKML1FIhKgVWUfqk1G8T4ngbaPBfuZ2pR9YQqplisjLTQlaoUJEQwcF5zjxroxirX7Bh9JyjoMlfOdKr0UWDmK+TcicthEwk1o937SQ0XiI4iRdSjv7e1s2Z/lX/F69el9LBHq304qcGFIn7A1MmxWUUw3DdPrUSz97g9Il9t6cQiW+xh3ZLeHSE/ZPqk+ntWJjM8fPua2vzzO2NIx5VDCl5OBhPNLwu2Jk7AZoja21OB/0lAaT8O1fBr8IZlLRNEV3UuLlkZFgeRWSssnyjp2+Op535lbE5/UQwwCJgJ91ltzNX9OfEDlXNfO2/XqxK43pDRntryUt9yOeZzfeuo3y/l6nGMuO2cZcuqKG2lx3tSdnClfcqmsK/KsT7yhxx0lxfIDhcToA6moNffPgWW1pKO8EhEmbGeo22zeXXpiDPG7Ew2Rle/vku8Xx19zQ+R65mL8wTw+TH6+idfbvw2TUnpy8yOqrrAvsLZlGWShCDmIDonqCdQuLgsDSCMDOUDs2bwOEPEkqO+Jtj3BLmlzLJyWjZnxvmaizGwjWkkPXG/n88GAcYLMC7jDbDRE0FKSWtxv0I4o4bQHAAA=
+          blockMaterial: PINK_SHULKER_BOX
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2586
+        type: GOLDEN_HELMET
+    '8':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2586
+        type: WHITE_SHULKER_BOX
+        meta:
+          ==: ItemMeta
+          meta-type: TILE_ENTITY
+          display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Archer
+            Kit"}],"text":""}'
+          internal: H4sIAAAAAAAAAO1V227TQBCdjdOkcQJIvXATAuTn/kD7hAiJBJUQKpV4tDbOxFmy3k13N00ihIT4F6R+Hb8Qxrk4TuOqFQ/lhUhZr+2zZ87Onhn7AD48fCt1NGgpJ9z0nMe7UBJdOEyEwsjwnjux/ZEcoAk7elKDnfcOE+sDQINB+bPUDhjsNPVIOeaD53jsgX+GQy5MU1tHOFaDRktFfa5cgsrN17JFkFfrIEOjv2LkhMSQpi6dalUCT15KoAtU3vGExwjpb7H4+XoxkQuVcCHDPsoEU0lzaezvpR1sSNvUwwr1vCzSE/XRuqHkDleaSluatqlywYXRKrRjbborAm9F8GYBfrIGx1p2UYURN0ZnSajdZxJeFCVBYhwLFduVIv8fOeZZkbiO1i5TVl8pe7pQ5kOtLQxS+ge2Bn5rMpTaUpi5JDqI8vl0iF4d/DbvYlNLbSy9qMAVjfYDgBA0+ZIqGMExRHWo5EAzGme/6J9OfqSgGZzCTwbVthQRVVxq33NDIhksQ5Wvh2IpS56WwXy4mYJtU/y+mm1SnFZFIQU1i2pXWPLzdBfKH3mC0P4WdMh1wUmPS4tHgXCclmW3UUoanAT8YsSDo8DhxNHdGSZ0YK+X6bzE4HvBEfWWiQ8Ndad1TTfuUD/7uebltMKQT7L627vFfNUC83kL2r1cWaqeUNQvs2LYQgwFmohcv0R4S8SjHEKP0WSvi/bxYA3u6PFqB/u37MAr2EHprvoerxEXIzp/6mDcxJihyBfN+ZMu21Bcg73l809ZXeYL9+aDzdrZ/5K755KDbddGRlub89rBtY9Nzr7pRybDHV7D5Sit0uMOl5LC/QFnTblWbwgAAA==
+          blockMaterial: WHITE_SHULKER_BOX
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2586
+        type: GOLDEN_HELMET
+    '9':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2586
+        type: BLACK_SHULKER_BOX
+        meta:
+          ==: ItemMeta
+          meta-type: TILE_ENTITY
+          display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"Crystal
+            Kit"}],"text":""}'
+          internal: H4sIAAAAAAAAAJ2Uz24SQRzHf7BQC1Vjao2x9mA4N4ZSi2kToxRKu6SUllIsJAaH3YEddnYGZ4e2W2N69uor+AoefAFvPoFP4MVE482DOgss1GKM6Vx2f7vf/cz392cnDhCH6+uUG/YGk0R6FdSehjAx4ZZDGDYEask11+pRG4tGk5/EIKpL7LhxUB+GILJPuYQQRLO8x2QoDppE7Rhc3WCGhZh0MJN9aWjAnB8zmxS5stEVXGJDEs7CoNEjevYLYjCbkVKQZk/iIjdJi2ARMAbbRSyMTBXsIAfD3TZmWBDjvs1UDk1k2GXsElciZmANYqUuFsjn+4AZiBwc6Dl1GwF/Pfv0o3/dLeen4dpo1z53YYLbECPwFExlHD/jx19hsOJwxSRulyIvMJZ+mSASUWIk1lqIungxYXDKRWItgV70UGIxIfGJVFFWeApK72UtJJzEK1Cmt4iJ8xS1XQXW4hDft3uUlo6VHxXsCq5ykgS7MZj2GT3la1ifaBXRHoZ32Csk64dW0jwsUMPT0yqu7CdpSe90H+qs6jWzelp31PutTHrbWz2nXZHo6QqtLResOtvrNZ1qcnu5TPFWeclwDo5KlVqqeFontUptpZSzOvUKJTu5dbu+WVzeyVGrmKPq2bpT69inpad5Z6eip4q5zFKpYi/VTjce1HNFr5jKd/qcTtUpbu6l6tnCausw+QhgBsK66Tfnc/7j9+f10pe3P8/MD2/cbwATI+lXWk2kPwkwHMPQhTHUYCqHHNTGf/ZHg2i/EfA69T4AL4zBFCNpKbJhYVcqvcQBP/wv/hA0NwYRwVnDPeZiZFD7D8CdMcAkyOHMbHSJYaOTkY3Y5dOcn0yT4nabMDVpQ3r88vTbk/Qm53KEngnQTyb0bU5NzBoGEqJ/nPT1sxf057qPVVmMwX8TqG8G6hsD9exYzZsuUcVkgXQukGp/AyvbXYwEVfn+Boz+S1UdBQAA
+          blockMaterial: BLACK_SHULKER_BOX
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2586
+        type: GOLDEN_HELMET
+'4':
+  uniqueId: b2a6228d-766b-4b69-bb8c-9486c8fec512
+  name: Legacy
+  world: world
+  x: -126
+  y: 138
+  z: -369
+  type: admin
+  object:
+    type: villager
+    baby: false
+    profession: CARTOGRAPHER
+    villagerType: SAVANNA
+    villagerLevel: 5
+  recipes:
+    '1':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2586
+        type: RED_SHULKER_BOX
+        meta:
+          ==: ItemMeta
+          meta-type: TILE_ENTITY
+          display-name: '{"italic":false,"color":"red","text":"Scythe Kit"}'
+          internal: H4sIAAAAAAAAAO1Xy27bRhS9EvW047ixHNsxiqYg0K6CIEhaoPCmdWQXNtCHUNfdCkPyipxqyGGHw9hukT/oL/Ursu+iX9B8gTukRJEiRZcJFK1ELyzZw8tzzn0c3g2ADbj/knFzfOpJKm9+JnYH6tSChy710BRkJI8CJ2RjFEODX3eheS7RDTYAYK8GjQvGpYqgSWJ3YedYSkGNUOL33KIjiiI+V+tA4wfiIjy00UNBzacuf4UuevLCR7Q06P7ooyCSck+drm9C4/Ly/ER9bNxG19uDNxBdj/8+68DW7BFxxL18xGEQhWxB69jloSe/fvMivqAL90490yGejE4lsCKeuynP0DMEkjH17Dpo7BWD54pa26KBz8hNQuLpHzqVhFFTPxoRFuAT3eSMC/1IF2jpT3SJ11J9OSG2jUJ/DRq0TohLbIw4KK5n1MJvGbGDCIL6afYjoEUwVHBvGFxxYcFU59pE5yKkL0shkd9CkmIacBookT/9hRKmkL2vJl3o9cNAcnfAo5ydjkZoTm+vwdaFw68GREhqMgzUH+rnVk+Dzkk4y7BVg0506tzknjrQPXZ9FleL+tI+dg2q0ERSPcg+pR8xgs/f3uYl7EBrcgK2U9To+vImL+5+pqKVfIEz9Cc3TvWtl+n7RbWU9wV1AyXvGeeW/lqDZnwKbu8sv0cpqBEVOPQFl0pOBWuqd0PB27ycZIEYDGt3FVQ7z/kgDc+QSEd1sYPMRZmQ1pZE+iduYGXSj1NUiu+vEV+2dOofF6mbDgZSkZSY0G9O6M8FvqtuJPcUUGqOyfUsRmtBDDUM+w4RNlqDGcGsAplaJULwq+SR36ig7emdhemwk95kCh4EBr9KMLTL0visNI22QPTSRL4MGUMZj4Wy9q4vbu/6fHtvl7U3ZNt7cajd9wm1cFJ89slprkC0CpOiNRF6L/2/pL6P1jBOUiJ2Zy326sTuvrvr2ZxlJpSCpOado0JO/XjePxZMqXrhDSgezUS9W5hyOpuaUMUq8x3cS08bjPyOQ8Fn9r6xtvcPau+bZfp+9W5O9x3attIrqOx2u3Nut0yLOyxaHJuiS1jfWxLrCxb1pqjO+nCu1AO5bHvfL3I3OJcz4vcrOPte3tkDR+0RLAmxPXPlxaadnPuo6gLUS9YVIiUxx4vWH8ivP3/9+U/8mznNwvqzOx8vv/z8C5Nr5cvPgCo52f8sP1o+G1uZiknFfbA229WZ7U6Z2M8repCCHlpqc8Wi0xbynZkQUo0Gd8hHw9CzblQJJnh6a0/8oJ64X2FI9vJDMrP6HJRPyEjD2bvNo3UTr66JD9dir0BsgP8ANGRPDDwVAAA=
+          blockMaterial: RED_SHULKER_BOX
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2586
+        type: GOLDEN_HELMET
+    '2':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2586
+        type: YELLOW_SHULKER_BOX
+        meta:
+          ==: ItemMeta
+          meta-type: TILE_ENTITY
+          display-name: '{"text":"Alchemical Kit"}'
+          internal: H4sIAAAAAAAAAO1WXW/aMBS9IXxm/VgHHW01TSjPfZ2q9WEaAzRV6qaq7B25wUmsOjayzSia9h/6h3jfz5pDBoESlkxqK00KT7F179Hh3JN7YgFYsPeJcue2xxRR02/Iq0KBDOEwIAw7ArnqXPpjeovF4Ibf1aB0oXAgLQBoGlDsU67AgFKHj5kyLDAV8mpQ74yl4sEVV4SznutiR807DAN2+z6fXCGhiEOx1BeFi2HdhGp3LFBYrat+GVANqy4cznRBrR2MKHEJFvpQaQc3BDMV0q4MiRxRNK1C8SsKMLR/2EQhShz73EVU4lPb4ZQL+9ye+ERh+9RW+E7pY193Sb8V0WtxVz8RyZn9E0w4WKXeCfvh3exDFcrRDezHsuBgpKYQqdVcUWuOPhhF9X80MnKNUjUqZNaomKzR3ppG5Y/bNIJVjZKh9tflHmaSOxmqsQ7V2AZVSIc6zmiC0t9N8DmrCa6JJMxrdbGDpq1L/YhFeI7msc0KX85mqVY4ia/pAvaBG8wHbogx6ys+mhBXMSxlRosVM1vMTJ6A9Xi+eL0GZdxnGmYy1FFGqJTl8D6rL+KtcEk8X21zwuz+LNUJL+Pr9VGVts7/IG7xkdAHL+P0y48PWfl3yAzery5QWxssPE6HmA0cJMQ8eef1tTxdUidl5RqlavQiT+A8gZdu2HmKBN7NE/h/SeCDB6MyodxFAfIwhL+ouRE3E8HZQE64GC4AXuUrN/V9qOcapWrUyGMpj6WlGw6fIpaaG7vOusYjRESHSxW+fDXY6THHR0wFWrzohdxYgSP9Ta6tqHELYNLvVKMnLc2VP6kRCQsQoQMf0wAvv+iPnoZPIZHP2yQ+jo+l0lIpvOB0/Jyc3iRxotjztCHkgtHJc07tOInRDedK6pLfcVD7MkgVAAA=
+          blockMaterial: YELLOW_SHULKER_BOX
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2586
+        type: GOLDEN_HELMET
+    '3':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2586
+        type: LIME_SHULKER_BOX
+        meta:
+          ==: ItemMeta
+          meta-type: TILE_ENTITY
+          display-name: '{"text":"Vanilla PvP Kit"}'
+          internal: H4sIAAAAAAAAAJ2Sy07DMBBFJ02D2ki8FqUPseA7WCEeC9Z0H7nJxLHi2MieUPh7UgXHUbOx8Pr4zNyZSQFSuHqWOq/fFAn62TO+gJkoYNUIhblhJT3aqpU1muygv5eQvBM2NgWAywjmH1ITRJC86FZRlEJMjMdw8coaxhFOr7etva0QrNGqyOxRmwL+HFGAY+sdpRSKMnayEKJ0llmAZZSrFLYSimdGD33EzrDq6VtPY4OGyYGcD7V68s6TR0anabV5jeTw5AwftSHZFzujF45+mIyPa1mgynJmjB74ZUDwm/FCBfokqfv81IPXHiRt8spx64Aim+meK5SNT7YJkNxPJXmFlj5lN1gn2gaIdlORRM67nVun2f3veA9ak+2AX6jfQwZAAwAA
+          blockMaterial: LIME_SHULKER_BOX
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2586
+        type: GOLDEN_HELMET
+    '4':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2586
+        type: GREEN_SHULKER_BOX
+        meta:
+          ==: ItemMeta
+          meta-type: TILE_ENTITY
+          display-name: '{"text":"Rushdown Kit"}'
+          internal: H4sIAAAAAAAAAO1Vu3LbRhS9IEiKpCTHkmxn7DQyCleaFMmMCzUeWVIizcSxx4pqzBK4BHa42IV3F5Y4npT5iOQj0qVI5XGZP0g6f4QLd/EFAZAUQPrRZFIYDbCY+zh7ztm7A4ABXHsoVDA+lpbbyU8s6kGLh3Az4RIDzUZ238SZGKP2h+qyD51Ti4kZAMCGA+0zoSxVcC2LBrAWcpMKNulB+0eWINx/4XHLBA+8/RETBve8QAmlvX2PPcuYt+dZvLS0+l6JEOXuD2yoJ8b7GfqwfWCt5sPM4iMV8hFHPe3o9MqOvYRxGTMZVq12IpSoefA1s5YF47MUMXSh/zhFzSxXkpJhHdrn56dH9NXOl+D89cf0fe31vR5szjpO6924Ws83ecEudA8SlUn74DUUTx82jmVAQGyC0k4xthv0jbhGn1GFwLbAFc8FOFAE7cyDxpIkGFKr1SEmZjqVaEwZ4pYh2wshF4gpl9EswoH1cznUyMZsKNBxoXvEEhZhDp74OeEhfidYZGjZoeDOYb49p6h7Y143mirks0uEUnRnlejfvKhkfZqZePcEReLNhc8L0fKKLT4g+DI9ik18SODNfTZ9r7tpQ+CbNYHDsmKpMGW1lqlbUnN9To2NlZZmptonEL5WJ/zLBuExsYe24rxVcO7C4CmmjOtDZXKg7hKcrYaEqVaWHEhU1Ry2EJMVyBcNdGUDdcBfNQAHMRpLdrAzo7j/N9C3G6AFRhGlmwpye5W3v1050EpfLzr/oVL2vdOsVZWdeTFRzzFn46PG1+D2m+m78/vfDXffqlesD7A/f82f36CCsDVLYJcnyISNa+1b9fb9XzoFjFdvG+23F6qRh/Nys9Yv/ylb/9en61ZD92GuUCV6pwrvNbwdaJqqdP+ZlF1In8xS5XQrb3+c3UaCkxJ0a/nGIoqqylqVsbtqDARM00Go4vtF1z7sHGbGquSJyjU6Ho3opBQ0OrB5FquLJ0xbHgg09KN1GnbowjjKKkWdPTpLedRpoCQF9A+SVEzNSX3WDpIhx3wMfsqtfhFzi/NTcGY1ysjGuwSQzoELW4t4D/Mk+Hd8twfd4g98Md84JqmdvGc+5ohM7KdFYknM4DMxy4lZ/0zMcmI2avF3FiYP3TyJr0Z+JsMJ3Q7E0js0VZOFLQsAAA==
+          blockMaterial: GREEN_SHULKER_BOX
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2586
+        type: GOLDEN_HELMET
+    '5':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2586
+        type: BLUE_SHULKER_BOX
+        meta:
+          ==: ItemMeta
+          meta-type: TILE_ENTITY
+          display-name: '{"text":"Waterbender Kit"}'
+          internal: H4sIAAAAAAAAALWU327TMBTGT5p2S8oGG/8mIUBRrvcEvRtdhYomNK1IXFZOcpJYdeLIPoFV0yTu4CEmHo4XAXdpk2rpzcp2afvzz9+nc477AH14+kHIcDbKidP8C0sc6PAIXmU8x1CxmAY6LcUM1TSQly70xoSZ7gOAY0F3IiQZgk0ssaF/gQXjaig1mWPbhb1RHqYspwxzur3SqdiHDVvIORM074AtvgmwoRK8bARlHihkM54ntcaGnVOWsQQN0Ty+G3FdCDZ3oPuZZQjPr3zCS/IH/lkF968BLOgNZZmT1XJAikfGHyzTWP+TRvGCDO1x0lxU8Hul6VRpXHgxLDXJ7FwSl/kojjGsMnQt2J+k8vs5U8RDgdqyoDOO9o3301KxhRrs/WMLnIVqHMrcCNyTrBA85qjMYvckC/jiSdiMOng41LuHQ73fBtWuTnnlB1JE/iBmQuOxz4kJHtbLMo9QCVOcRqFNhWZIqZJlkta7MohLHTJaEy6rXlXMk7FHKXoTZNq/dqF7JhU6sEj38/EshFJIZTwInqQ0LUpVCPRrZ1+NVnkfZeT9+fXbdKUNh+tNNlxchh+f/jqwU+3As6ZPMStofrePD5rzorqxbGNnJfQq4VEjTEx2zKchU0rWbe/ee4jXZrQwIDMe5vnljFrQ+hIV6oJX3bN5kO9GW3NMpSKB0xRFhrXj/srxxs/Aht5tLeD1zU0L/XbtN0VmukRNwxQ1mYuEK/6T7flv2nyBSWL+ML2i721PP2rTAylJG8I/HM9+Qp0GAAA=
+          blockMaterial: BLUE_SHULKER_BOX
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2586
+        type: GOLDEN_HELMET
+    '6':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2586
+        type: PURPLE_SHULKER_BOX
+        meta:
+          ==: ItemMeta
+          meta-type: TILE_ENTITY
+          display-name: '{"text":"Philanthropist Kit"}'
+          internal: H4sIAAAAAAAAAJ2TS0/DMBCEN5RCG6C00Kfgl3BCPA6c4W5tk20S1bEje6sCv54AdVISVUrweebT7I7XB/Bh8CB1sH5WnPDHG0Y9OEpCmKSJosDgiu9svJFrMmKp3/vQfWFKrQ8AUw+OX6XmnNBhjDpw8oQpRgTfz4Puo94o9n5ps5IWaRmSEjHJlBh2DK8B46bGCGKynElkcpyjBpxFjSMpihIVWUfpNKBMa5Sl1lwguhX5cG+dGIaySHzqhPc1rsQssULi50YmTt6ryEelnFIyKEOn7P9rCLvVpkD4h7Pt5Jhl5ShnFfl8b+aMAs7TCTRGb53hvGIY/+WLvBNdfJHB4RpjbSwJm+FWibxK57is4C9KB6uCO2xXwKhxAVcNCtiLtCz3ct12keO2hkmbzc8qoW/rx/xTAJpUG2eat7vElUwUC1ShsEwkHWXRsByAL9ZGp27KBAAA
+          blockMaterial: PURPLE_SHULKER_BOX
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2586
+        type: GOLDEN_HELMET
+    '7':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2586
+        type: PINK_SHULKER_BOX
+        meta:
+          ==: ItemMeta
+          meta-type: TILE_ENTITY
+          display-name: '{"text":"Neff Kit"}'
+          internal: H4sIAAAAAAAAAL2UTW/TQBCGx3E+XQSolE+BFPnAqeqdnhAhkaASqkoljtbGntiL17tmd9M0qioh/gtSj/wy/kJYJ/6iLrT0QKSsHGf2nWf2nVkHwIG7b5jw4zHXVC+PSdiHFg3gYUI5+pLM9L6K5ixG6U3F6QA67zQmygGz0YL2RyY0WNAZiTnXlgO2JqENzhGmhMqRUNrEWQO4M+Z+RLhOkOv1XmuTZKdKkkqh0ddU8BbY7IQZVRu6b0lCQoTss9nxuNoRUJIIHhgsoRXkMNb/hHnWhGEYhpSHJU/rGh77Cp7WTXg2MferGB0JydVfeZ83ef0IlU4Z0VgQ29cQ925HbP8bsQO9gCoDtuxD+wNJEHbOXI2n2t13Oc5mw4hExD23oeMLJiT82HtZVPmkysCQ6Mh0boQsQV1U2L69Jw8q7ZiboZkSP84LaEEjREVEphzVjWvcLmtcEBYnhLvnRVW1s6VScE8thAyKijqNimppBrA9MiAhBodSfM5MYVjv+6eV8oxKNLqxJ01tqDdiDgwm+Xs1AGd8mjKhjLFrDdMt7eNlivYWOBMS4ChzQ5k/unBhVvUegFLz8CkjmcMr8LegWwtamXX13Xyzh69Z0AoO4JsFvQmjhkFmA30sCWUW5Knal1NZmUpd1oL18mcJqynx82L1u8RBj14pcYVtkzN3Kljg7s8IU7jrUk3MtvLnukONp+TLnLi7hcNHmJgRGebHeYKZ1YWNrzP63LRi1Lcrm3wplJqKRWF/t9y3cawP3UORzV79umSCh55iYpE1ZK75qDaMNE0x8IiUlW7vkm6z8hdlwyo9T2kwnM392Nx/w5SGVe/WKMx7T6VkwT1zURZ5+mWeRnxozhW552dc5QAPLsXfq+IJP6HM+PcLDPNPU9kGAAA=
+          blockMaterial: PINK_SHULKER_BOX
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2586
+        type: GOLDEN_HELMET
+    '8':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2586
+        type: WHITE_SHULKER_BOX
+        meta:
+          ==: ItemMeta
+          meta-type: TILE_ENTITY
+          display-name: '{"text":"Archer Kit"}'
+          internal: H4sIAAAAAAAAAO2V0W7TMBSGj5ttbTNgUFbGJgRTrvcCq4SEKKsEkxAalbiM3PQ0NXXsznbXVggJ8S5IezpeoThL0qRbKONm3FCpkZN8/v37nOMTF8CFB6+5DEYnwjAz79KwBhXWh2bEBAaKDkxLDyd8hMrvyVkdNt8ajLQLADsENj5yaayCY2jogHuGY8pUW2pjX1frcO9EBEMqTITCXE1xEu1Grs3EgAm7bgUcfsGBwA1izFAFTIQp4aTEToGQU1TL1w5svaERDRHiH4HNtpwIQ5JZ9/NZPTmFdAcko5oJ9SinMEJFeT8jKxn56oYLqlSu6GTcy/VcLeMOE24v50LJ+yj8IOZNxtfLY+2UxLpy20g+yYnzCQtGvtVRIS4pAtX21ZM+WYltHRrp8w9KfsbAMI5XK6ex3s91B0zhVKqRr2yhoVkGMdmNC/VOCug6uCezMZeaSZGUjN15dz5GZxvcDu1jW3KptH2xBZf2qt8BMGYHn2JLEziGYBu2CtDCXhc/7D8efIuhBZzCd7upDrebRRUnv6so4wTSpTauL0VilaIsSUrr9xLkpsTPy8WqxGmVlUrY81TtMz3mdF6Djfc0Quh88Xq2HLzWgHKNRx4z1E5b3gaxqNfy6PmEekeewZmxd2cYSYOHaTgv0PtaciAK5REoqXXhVLj/s3PH2cly8/BPByhLUSNrB2ta3m6h2SopfG11lv3s8bUlC+WghZz2KOcZunt7tHl7dK+8oZGShpbu50WhoS37jm+HJh5KkfatyvoPwUGh7oeUicgm1x8ij/LgPv1ra7sr1lb9kPV+npf5CYaoja00g5mn/bv09KzME8cwtN8QnTk6+EcJ3C8z15PSxMf3F645JXzXCAAA
+          blockMaterial: WHITE_SHULKER_BOX
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2586
+        type: GOLDEN_HELMET
+    '9':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2586
+        type: BLACK_SHULKER_BOX
+        meta:
+          ==: ItemMeta
+          meta-type: TILE_ENTITY
+          display-name: '{"text":"Anarchist Kit"}'
+          internal: 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
+          blockMaterial: BLACK_SHULKER_BOX
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2586
+        type: GOLDEN_HELMET
