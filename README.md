@@ -3,8 +3,11 @@ The Crypt & Catacombs PVP Minecraft server, now on GitHub!
 
 ![Screenshot of sky ruins with shaders](https://i.imgur.com/To3ECEh.png)
 
+## Setup
+Run `chmod +x start.sh` and `chmod +x reset.sh`, and ensure the start.sh script points to a valid Java 8 binary. You can then run `reset.sh` to create the world directory, and `start.sh` to start the server. If you need to hard-reset the map, stop the server and run `reset.sh`. 
+
 ## About
-My friends and I originally made this map on an Aternos server in 2020. We moved to a real server and continued to add things to it until around 2021. 
+My friends and I originally made this map on an Aternos server in 2020. Later, I moved it to a spare server I had and we continued to add things to it until around 2021. I have it here on GitHub, after I downgraded to version `1.16.5` and installed ViaVersion so you can play on any version!
 
 ## Thanks
 
